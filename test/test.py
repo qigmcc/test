@@ -87,3 +87,5 @@ X= np.transpose([np.ones(N), PA, IQ])
 y=gtw
 clf = LogisticRegression(random_state=0, solver='lbfgs', multi_class='auto').fit(X, y)
 np.round(clf.coef_,2)
+import truth
+truth.truth()
